@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="15dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/roundedImagemaglogoparent"
+                android:layout_width="155dp"
+                android:layout_height="46dp"
+android:scaleType="centerCrop"
+
+                app:riv_corner_radius="8dp" />
+
+            <TextView
+                android:id="@+id/textitogParent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:text="itogprice"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagedeletemag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/nestedrecer"
+        android:layout_width="364dp"
+        android:padding="4dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+android:layout_marginTop="9dp"
+        android:layout_marginHorizontal="16dp"
+ />
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="350dp"
+    android:id="@+id/buylist"
+    android:layout_height="50dp"
+    android:textColor="@color/white"
+    android:padding="4dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="9dp"
+    android:background="@drawable/people"
+    android:backgroundTint="@color/darkgreen"
+    />
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Заказы"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:id="@+id/zakaz_shop"/>
+    <item
+        android:title="Новый товар"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:id="@+id/chat_shop"/>
+    <item
+        android:title="Профиль магазина"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/shop_profile"/>
+</menu>

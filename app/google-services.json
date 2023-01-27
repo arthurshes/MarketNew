@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "195491778644",
+    "firebase_url": "https://my-chat-i-d3e60-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "my-chat-i-d3e60",
+    "storage_bucket": "my-chat-i-d3e60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195491778644:android:e71773985c49bf489d1dc1",
+        "android_client_info": {
+          "package_name": "mychati.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195491778644-8ovb6su1an8i5f968kjrp71knfpt1vev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mychati.app",
+            "certificate_hash": "fed440aa74ede181a75a08a80cc0e069f94693fc"
+          }
+        },
+        {
+          "client_id": "195491778644-72va8kkgb10m54rtee94anj5109r9e7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrNK0cu_JUqg0FrSix3Ij68yOfsrKTHMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195491778644-72va8kkgb10m54rtee94anj5109r9e7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

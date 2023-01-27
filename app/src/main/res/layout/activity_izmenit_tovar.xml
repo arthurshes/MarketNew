@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    tools:context=".Shops.IzmenitTovarActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="408dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461">
+
+
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/editnametovarIzmena"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/gray"
+
+            android:hint="Название" />
+
+        <EditText
+            android:id="@+id/editpriceIzmena"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="55dp"
+            android:backgroundTint="@color/gray"
+            android:hint="Цена" />
+
+        <EditText
+            android:id="@+id/editopisannieIzmena"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/gray"
+            android:hint="Описание(до 200символов)" />
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImageViewTovarIzmena"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/plusfata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        app:riv_corner_radius="12dp" />
+
+    <TextView
+        android:id="@+id/odej_text_careg_izmena"
+        android:layout_width="406dp"
+        android:layout_height="62dp"
+        android:background="@drawable/textview_design"
+        android:backgroundTint="@color/gray"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonizmenatovar"
+        android:layout_width="334dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_activ_design"
+        android:backgroundTint="@color/darkgreen"
+        android:text="Сохранить изменения"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус товара"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+
+    <TextView
+        android:id="@+id/textstat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tekstat"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonstatyes"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_activ_design"
+        android:backgroundTint="@color/darkgreen"
+        android:text="В наличии"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonstatno"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_activ_design"
+        android:backgroundTint="@color/red"
+        android:text="Нет в наличии"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+</androidx.constraintlayout.widget.ConstraintLayout>

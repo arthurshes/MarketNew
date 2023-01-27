@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My chat i</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emailReg">Введите Email</string>
+    <string name="emailpasswordvery">Введите пароль</string>
+    <string name="losung">Создайте учетную запись для большего веселья</string>
+    <string name="videoboxLogo">VideoBox</string>
+    <string name="hello">Веселые интерактивные ролики</string>
+    <string name="hellotwo">Каждый день</string>
+    <string name="vyborregister">Войти через</string>
+    <string name="vk_vybor">Войти через вк</string>
+    <string name="glavreghello">Создайте учетную запись для большего веселья</string>
+    <string name="create_fun_video">create fun video</string>
+    <string name="videobox">VideoBox</string>
+    <string name="luchsheedya">Лучшее для вас</string>
+    <string name="recycler_mag">Магазины</string>
+</resources>
